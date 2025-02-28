@@ -8,9 +8,7 @@ This project builds a **personalized news recommendation system** using **Sentim
 ## 🔍 How It Works  
 ✅ Fetches **user tweets** via the **Twitter API**.  
 ✅ **Preprocesses tweets** using **NLTK, Spacy, and Pandas** (Tokenization, Lemmatization, Stemming, Stopword Removal).  
-✅ **Performs Sentiment Analysis** using:  
-   - **Lexicon-based models**: VADER, TextBlob  
-   - **ML-based models**: ANN-LSTM, Naïve Bayes, SVM  
+✅ **Performs Sentiment Analysis** using:  VADER, TextBlob, ANN-LSTM, Naïve Bayes, SVM  (lexicon-based, machine-learning based)
 ✅ **Clusters users based on interests** using **K-Means Clustering**.  
 ✅ **Scrapes news articles** from various sources using **BeautifulSoup**.  
 ✅ **Vectorizes text** using **TF-IDF** and calculates similarity using **Cosine Similarity**.  
